@@ -1,0 +1,58 @@
+.small {
+  width: 70px;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  opacity: 0.7;
+  line-height: 1.6;
+}
+.medium {
+  width: 70%;
+  text-align: center;
+}
+
+hr {
+  border: solid #5851ea 1px;
+}
+.small-hr {
+  width: 30px;
+  margin-left: 14px;
+}
+.medium-hr {
+  width: 80px;
+  margin-left: -70%;
+}
+
+.bg-line {
+  background: url("../../img/png/curve.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50px 200px;
+  height: 940px;
+}
+
+.landing {
+  background: url("../../img/png/img-landing.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+.change-margin {
+  margin-left: -120px;
+}
+
+.btn-changes {
+  background-color: #5851ea;
+  color: white;
+  border: none;
+  height: 50px;
+  border: white solid 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 20px;
+}
+
+.btn-changes:hover {
+  background-color: white;
+  color: #5851ea;
+  border: #5851ea solid 2px;
+}

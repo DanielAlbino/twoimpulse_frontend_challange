@@ -1,6 +1,6 @@
 import NavBar from './components/Header/navbar'
 import Home from './pages/Home'
-import Contact from './pages/Contact'
+import Absences from './pages/Absences'
 import Employee from './pages/Employees'
 import {
   BrowserRouter as Router,
@@ -12,8 +12,8 @@ function App() {
     <Router>
         <NavBar/>
         <Switch>
-          <Route path="/contact">
-              <Contact />
+          <Route path="/absences">
+              <Absences />
           </Route>
           <Route path="/employee">
             <Employee />

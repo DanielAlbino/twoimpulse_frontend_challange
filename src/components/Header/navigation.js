@@ -14,11 +14,14 @@ class Navigation extends React.Component{
                         <Link className="color" to="/">Home</Link>
                     </li>
                     <li className="nav-link mx-3">
-                        <Link className="color"  to="/contact">Absences</Link>
+                        <Link className="color"  to="/absences">Absences</Link>
                     </li>
                     <li className="nav-link ml-4">
                         <Link className="color" to="/employee">Employee</Link>
                     </li>
+                    {/* <li className="nav-link ml-4">
+                        <Link className="color" to="/employee">New Employee</Link>
+                    </li> */}
                 </ul>
             </div>
         )
